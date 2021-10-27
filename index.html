@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jira Ticket</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="toolbox-container">
+        <div class="priority-container">
+            <div class="lightpink color"></div>
+            <div class="lightblue color"></div>
+            <div class="lightgreen color"></div>
+            <div class="black color"></div>
+        </div>
+        <div class="action-container">
+            <div class="add-btn">
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="rmv-btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+    </div>
+    <div class="modal-container close">
+        <div class="task-container">
+            <textarea class="textarea-container" spellcheck="false"></textarea>
+        </div>
+        <div class="modal-color-container">
+            <div class="lightpink modal-priority"></div>
+            <div class="lightblue modal-priority"></div>
+            <div class="lightgreen modal-priority"></div>
+            <div class="black modal-priority selected"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
